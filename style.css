@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    margin: 25px 30px;
+    padding: 10px 15px;
+}
+.dropdown{
+    display: inline-block;
+}
+button{
+    background-color: rgb(112, 82, 34);
+    color: whitesmoke;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+.dropdown a{
+    text-decoration: none;
+    display: block;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.dropdown .practice{
+    position: absolute;
+    background-color: rgb(220, 215, 250);
+    display: none;
+}
+.dropdown:hover .practice{
+    display: block;
+}
+
+.dropdown:hover button{
+    background-color: aqua;
+}
+.dropdown a:hover{
+    background-color: brown;
+}
